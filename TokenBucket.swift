@@ -3,7 +3,7 @@
 import Foundation
 
 // Bucket Structure
-struct TokenBucket: Equatable {
+struct TokenBucket {
     let capacity: Int
     let fillRate: Int
     var tokens: Int
